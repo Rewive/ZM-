@@ -1,0 +1,71 @@
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+body::-webkit-scrollbar-thumb {
+  background-color: #c1ffb9;
+  border-radius: 8px;
+  }
+body::-webkit-scrollbar-thumb:hover {
+    background: #a4fe98;
+}
+@font-face {
+	font-family: "Montserrat-SemiBold"; 
+	src: url("Montserrat-SemiBold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Montserrat-Bold"; 
+	src: url("Montserrat-Light.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: 900;
+}
+.head-logo{
+    width: 20%;
+    height: 20%;
+    margin-left: 100px;
+    margin-top: -56%;
+}
+.background{
+    width: 100%;
+    height: 90%;
+}
+.button-s{
+    margin-top: -49%;  
+    margin-left: 450px; 
+}
+.button{
+    font-family: "Montserrat-SemiBold"; 
+    font-style: normal;
+    color: black;
+    margin: 15px;
+}
+.email{
+    font-family: "Montserrat-SemiBold"; 
+    font-style: normal;
+    color: black;
+    margin: 385px;
+    margin-top: -17px;
+}
+.foot-box{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.futer-txt{
+    position: relative;
+    margin: 135px 50px;
+    align-items: center;
+	font-family: "Montserrat-SemiBold"; 
+    font-style: normal;
+    color: black;
+}
+.txt{
+	font-family: "Montserrat-SemiBold"; 
+    font-style: normal;  
+    white-space: pre-wrap;
+    text-shadow: 1px 1px 2px black;
+    color:aliceblue;
+    margin: 25px;
+    margin-top: -125px;
+}
